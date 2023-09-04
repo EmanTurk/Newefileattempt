@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lists Exercise</title>
+    <style>
+        #list1 {
+            list-style-type: none; 
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+            color: blue;
+        }
+
+    
+        #list2 {
+            list-style-type: decimal; 
+        }
+
+      
+        #list3 {
+            list-style-type: square;
+        }
+    </style>
+</head>
+<body>
+
+    <ul id="list1">
+        <li>This is a bold, italic, and underlined item with blue text.</li>
+        <li>You can add more items to this list.</li>
+    </ul>
+
+
+    <ol id="list2">
+        <li>This is a red numbered item.</li>
+        <li>You can add more numbered items to this list.</li>
+    </ol>
+
+
+    <ul id="list3">
+        <li>This list uses square bullets.</li>
+        <li>You can add more items to this list.</li>
+    </ul>
+</body>
+</html>
